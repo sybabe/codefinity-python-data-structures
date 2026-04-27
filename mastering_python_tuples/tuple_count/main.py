@@ -4,13 +4,13 @@ directors = (
     'Quentin Tarantino',
     'Martin Scorsese',
     'Steven Spielberg',
-	'Ridley Scott',
+    'Ridley Scott',
     'James Cameron',
     'Steven Spielberg'
 )
 
 # Write your code here
-director_count = ___
+director_count = directors.count("Steven Spielberg")
 
 # Testing
 print("The number of occurrences of the director:", director_count)
